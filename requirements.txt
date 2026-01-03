@@ -1,0 +1,10 @@
+--extra-index-url https://download.pytorch.org/whl/cu118
+whisperx
+torch
+torchaudio
+torchvision
+audio-separator[gpu]
+gradio
+pydub
+requests
+edge-tts
