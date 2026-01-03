@@ -1,5 +1,7 @@
 # AI Movie Dub Maker 🎬🤖
 
+`beta-version (low vram mode)`
+
 An automated pipeline to **extract**, **translate**, and **dub** movie clips from Japanese (or other languages) to English using AI.
 
 ## Features ✨
@@ -12,16 +14,15 @@ An automated pipeline to **extract**, **translate**, and **dub** movie clips fro
 
 ## Requirements 🛠️
 *   **Windows / Linux**
-*   **GPU**: NVIDIA RTX 3050 (6GB VRAM) or better recommended.
+*   **GPU**: NVIDIA RTX 3050 (6GB VRAM) or better recommended.(but most of the case it uses 2.5GB to 4GB VRAM)
 *   **FFmpeg**: Must be installed and added to PATH.
 
 ## Installation 📦
 
 1.  **Clone the repo**
-    ```bash
-    git clone https://github.com/yourusername/movie-dub-ai.git
-    cd movie-dub-ai
-    ```
+    `
+    just download the zip file of the code
+    `
 
 2.  **Install Dependencies**
     ```bash
@@ -57,3 +58,4 @@ An automated pipeline to **extract**, **translate**, and **dub** movie clips fro
 
 ## License 📄
 MIT License.
+
